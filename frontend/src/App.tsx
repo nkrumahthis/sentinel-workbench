@@ -1,19 +1,15 @@
 import { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from './components/ui/card';
 import { Alert, AlertTitle, AlertDescription } from './components/ui/alert';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import { Clock, Shield, Cloud, Activity } from 'lucide-react';
 import AlertList from './components/AlertList';
-import { AlertData, Alert as AlertType, Enrichments } from './lib/types';
+import { Alert as AlertType, Enrichments } from './lib/types';
 
 const API_BASE_URL = "http://localhost:5001"
 
 const App = () => {
 
-  const [users, setUsers] = useState([]);
-  const [selectedUser, setSelectedUser] = useState<string | undefined>(undefined);
-  const [alertData, setAlertData] = useState<AlertData | null>(null);
   const [enrichments, setEnrichments] = useState<Enrichments | null>(null);
   const [loading, setLoading] = useState(true);
   const [alerts, setAlerts] = useState([]);
@@ -39,62 +35,7 @@ const App = () => {
     };
 
     fetchAlerts();
-  }, []);
-
-  useEffect(() => {
-    // Fetch available users from mock data
-    const fetchUsers = async () => {
-      try {
-        const response = await fetch('http://localhost:5001/api/users');
-        const data = await response.json();
-        setUsers(data);
-        if (data.length > 0) {
-          setSelectedUser(data[0]);
-        }
-      } catch (error) {
-        console.error('Error fetching users:', error);
-      }
-    };
-
-    fetchUsers();
-  }, []);
-
-  useEffect(() => {
-    if (selectedUser) {
-      setAlertData({
-        userName: selectedUser,
-        eventName: 'CreateKeyPair',
-        eventTime: new Date().toISOString(),
-        sourceIP: '192.168.1.1',
-        userAgent: 'aws-cli/2.0.0'
-      });
-    }
-  }, [selectedUser]);
-
-  useEffect(() => {
-    const fetchEnrichments = async () => {
-      if (!alertData) return;
-
-      setLoading(true);
-      try {
-        const response = await fetch('http://localhost:5001/api/enrich', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(alertData)
-        });
-        const data = await response.json();
-        setEnrichments(data);
-      } catch (error) {
-        console.error('Error fetching enrichments:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchEnrichments();
-  }, [alertData]);
+  });
 
   // Fetch selected alert details and enrichments
   useEffect(() => {
@@ -163,22 +104,9 @@ const App = () => {
           <>
             <div className="flex justify-between items-center mb-6">
               <h1 className="text-3xl font-bold">AWS Alert Enrichment Workbench</h1>
-
-              <Select value={selectedUser} onValueChange={setSelectedUser}>
-                <SelectTrigger className="w-[200px]">
-                  <SelectValue placeholder="Select user" />
-                </SelectTrigger>
-                <SelectContent>
-                  {users.map(user => (
-                    <SelectItem key={user} value={user}>
-                      {user}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
             </div>
 
-            {alertData && (
+            {selectedAlert && (
               <Alert className="mb-6">
               <AlertTitle className="flex items-center gap-2">
                 <Shield className="h-4 w-4" />
