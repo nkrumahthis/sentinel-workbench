@@ -1,1074 +1,2332 @@
 {
-    "Records": [
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T01:21:13Z",
-        "eventSource": "ec2.amazonaws.com",
-        "eventName": "RunInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "189.187.11.189",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "cc3426e3-04df-4c81-9d72-bbb0b0fec5a9",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDAA4F68A65894740FB",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "b5fa45ea-fa35-4a59-bd3d-4fe416e8111f",
-        "eventCategory": "Management"
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T03:54:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "32.118.234.47",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "154c6323-b724-4364-939e-75dba6a91a28",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAE476825B797848E3",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T02:00:13Z",
-        "eventSource": "rds.amazonaws.com",
-        "eventName": "DescribeDBInstances",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "107.34.100.20",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "cbb027de-2d7f-4565-aadb-12abfd6b4955",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA57CE7A96DE2D4B3D",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "f6079f97-4af8-4cfa-9856-2278f80b6ef2",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "7e033418-851f-46f4-8b66-b5ae48a9a4a1",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T04:20:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "142.130.179.217",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "aeeaa328-3c3e-4ca8-9461-c93ca647784a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA069A7C895B364F6B",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T02:24:13Z",
-        "eventSource": "lambda.amazonaws.com",
-        "eventName": "CreateFunction",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "41.70.122.202",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "cdb0cfef-47d1-4579-8ff2-e4ec930c8398",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDAA6A9C3A5E8054A8E",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "3167faaa-5166-4f1e-a6fe-dd22a21f7a45",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "d436f3c7-9fc1-4178-8ed0-4508b34ea30f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T07:31:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "178.252.78.134",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "ef6033b1-ce8c-494c-80ce-54532cebdc02",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA345261320F2F4B33",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T03:48:13Z",
-        "eventSource": "ec2.amazonaws.com",
-        "eventName": "StartInstances",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "76.206.86.208",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "74f517b0-7131-4a37-b1c1-4eadffd966e3",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA310F5AAF502B4E4B",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "a22afa1b-fa89-4561-8b68-e03058499641",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "55e610de-1e0d-4cee-a4e9-d15c1218108b",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T12:05:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "CreateDBSnapshot",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "91.133.217.60",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "595d14b2-9f9b-41e6-b0fd-360a16891e39",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA4EB8B5CB2D2F4942",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T05:15:13Z",
-        "eventSource": "ec2.amazonaws.com",
-        "eventName": "StartInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "184.64.9.10",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "f511485c-4092-4ee7-918c-7dd445d4059e",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA7F63221F474740FE",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "1be99b8a-f0a6-4f70-99fc-e90a2424d3f9",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "da93acef-13c3-4f1e-b61d-6af94e0bd113",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T13:34:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "GetItem",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "197.76.188.16",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "30914330-d39d-45e6-9790-0375d2a90f5b",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA37F1B65C68B7474E",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T08:30:13Z",
-        "eventSource": "ec2.amazonaws.com",
-        "eventName": "StartInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "173.84.213.150",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "bb8fbf6b-ebe5-49f2-8ef8-18d2d8c66dc7",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDACD61604913D84BF6",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "dde73f39-0de0-49b7-87f6-2755e808dbca",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "c07631eb-23f1-4eb4-835f-788d6d198659",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T16:23:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "117.31.171.60",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "e38218e3-fea7-4460-be11-2a96e26baf73",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA12C5FB52E5964EE0",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T14:00:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "ListRoles",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "213.216.42.73",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "b6061aee-8296-46e1-84c5-d89bcadab732",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA0CE17AA90ECA4458",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "89807495-84b8-4ea1-a0e0-37cb9014290a",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "473a2fb7-41f6-423a-a0a0-cab2aa7ecbf8",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T17:52:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "GetItem",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "157.63.41.102",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "b7f5cbb3-768a-46e4-b70b-d7c2986b89e2",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAC4EB1E268A124DDB",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T15:29:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "GetObject",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "245.151.178.1",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "f01c1a65-8d31-40a5-aeb6-f9a09f4de8a6",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA41D93184FCE1437A",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "2696a324-0a79-47a6-ade3-fec1f4b4b30d",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "79d6cb1d-9efb-4227-a5ba-63690fdfbe5a",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T19:35:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "234.200.118.82",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "da5f4360-f851-4f77-b83c-8a4a1de5d789",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA02FFDBFB1E154D22",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T15:47:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "CreateBucket",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "18.178.24.62",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "d75af6d3-89de-46e8-b64b-e4d461b260c8",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA881A0066F07E484F",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "d48d1370-ec62-4104-ab21-7b0fd8b74089",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "26271773-b1fd-4e5e-b8cb-d61a22269509",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T19:35:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "150.124.242.160",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "a38c786d-48cd-41a9-924c-100ebaad027a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA15EE8B3A30CD497A",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T18:01:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "GetItem",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "186.9.61.65",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "7dda88c6-3232-431b-9a4c-5f9d965d6d63",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA6EE494CB72494E09",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": null,
-        "requestID": "50526884-50d7-4db6-9e8c-851bb937bb31",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "5249ac35-f1b1-43be-9c31-adbebe43eb28",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T21:30:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "131.16.213.28",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "5951921b-179f-47f3-b965-40a5e2df1024",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA93FD7E4B947E42E8",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T19:00:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "PutObject",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "159.165.104.246",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "ce3ac0e4-b2cd-455b-887c-1a90d1e1a165",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA02739FB1819B4642",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "d508df64-6b0b-4d84-ba97-de7b2a809139",
-        "eventCategory": "Management"
+      "responseElements": null,
+      "requestID": "c877cc5f-ba11-46e6-a3ea-093f18c00f55",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T02:32:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "238.42.195.230",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "c9e6267e-b3fa-4ef5-9f7e-8992af635bb2",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAAD5EB45DE17C40BE",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T20:33:13Z",
-        "eventSource": "ec2.amazonaws.com",
-        "eventName": "StopInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "70.218.161.69",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "39d58be8-9870-4b8f-90d7-2d0c21a62585",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA57B1D0CA98C44B60",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "29abac82-5274-4219-810a-a41582cba8e2",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "3e03db60-b10e-46eb-b21e-0867d0a62daf",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T08:06:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "CreateDBSnapshot",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "91.199.5.110",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "08461382-8c00-452f-a537-0b547ed7c553",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA27F3CC184B06444C",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T20:53:13Z",
-        "eventSource": "lambda.amazonaws.com",
-        "eventName": "CreateFunction",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "7.116.113.51",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "3f8c38b0-9fd4-4821-bf37-4726c16ba832",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDAE966A249C83D4380",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "d11daec0-db30-4b73-a006-c196d745d466",
-        "eventCategory": "Management"
+      "responseElements": {},
+      "requestID": "a09b0186-4b70-4707-9803-3d49b85a23af",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T12:07:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "187.33.164.98",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "8b7f6586-8554-43f5-b7fc-4d28807f19b8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA37990DF60C104D8D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-16T22:29:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "AssumeRole",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "92.101.132.181",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "922b9be6-8335-4d0c-802b-99237e1e70cc",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDADDCCA7B906614682",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {
-          "credentials": {
-            "accessKeyId": "ASIA1AD2025CB6584B0F",
-            "sessionToken": "FwoGZXIvYXdzE80c48267884f496db709fdaf45844f22",
-            "expiration": "2024-10-16T23:29:13Z"
-          }
-        },
-        "requestID": "107d34cf-4533-4f07-bfb0-05c327c9442f",
-        "eventCategory": "Management",
-        "requestParameters": {
-          "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
-          "roleSessionName": "Session_a5bfb557"
+      "responseElements": {},
+      "requestID": "bc8b33f4-0e04-4ae5-b460-9e10f1453f21",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T17:20:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "222.40.28.53",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "012c48d2-3ad8-4f4a-80eb-570d2071ecaa",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA2908B7D0C09E466E",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "70df381b-b2b4-4954-b091-5b462fa3e471",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T17:58:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "151.57.193.83",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "8912d281-65a8-491c-9884-451fe08f8737",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA99DF33CC31C94A0B",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "ASIAE7564011575B4844",
+          "sessionToken": "FwoGZXIvYXdzEef045c2b00a54078a31ea3204ae102bf",
+          "expiration": "2024-10-17T18:58:00Z"
         }
       },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-17T00:43:13Z",
-        "eventSource": "lambda.amazonaws.com",
-        "eventName": "InvokeFunction",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "6.42.138.255",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "545cf13a-5ff2-4230-87a7-f20b17150f4e",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA5F760472BA14445C",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "4935289f-a583-4f1d-80a3-a47e0a808e50",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-17T03:41:13Z",
-        "eventSource": "ec2.amazonaws.com",
-        "eventName": "StartInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "76.58.99.13",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "14f6bdd4-cfd7-4424-acfd-273ce70ead50",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA15AE890F1D2F4468",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "11e7ac6d-4c74-44dd-8e36-a4efe5a8daeb",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-17T13:35:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "CreateRole",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "68.58.43.49",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "4422de8e-feb9-44d9-94d5-7db1662d2d4d",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDAF31460A3ED574F51",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "79851df1-5e3a-47b1-9f7a-04cc43319608",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-18T00:39:13Z",
-        "eventSource": "rds.amazonaws.com",
-        "eventName": "DescribeDBInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "25.72.242.175",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "fb9d3f38-0a10-4784-a5c4-5acecb4da051",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA1A2629A2E6D540E1",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "040835f0-74a8-4641-bf5c-1e6ad6ffbbab",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-18T01:02:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "GetObject",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "71.213.131.56",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "d10c29fd-6081-4231-b211-0e3523165bf1",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDAB7AC671ECC264942",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": null,
-        "requestID": "1540876b-9bb4-49d0-8361-5fa51da64eb2",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-18T10:34:13Z",
-        "eventSource": "rds.amazonaws.com",
-        "eventName": "StartDBInstance",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "9.212.53.106",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "402f39e6-e682-4f9b-b45c-acec91f3a4b9",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA7E25D10CBD9E4C78",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "83fbb33c-2e3d-4406-94c6-9fc231c2faab",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-18T17:35:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "GetItem",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "36.237.155.126",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "28ca47b1-61d8-463f-ae57-95694b3530f3",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA4646BB5C45884264",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "3353dff8-376b-4f0e-86b9-6b7281631cdc",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-19T12:27:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "ListRoles",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "79.167.19.100",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "b5d77c4f-223e-4083-99ab-539fdc60ca7c",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA279311B4BDED4BCA",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "ff136f19-d419-4dfe-8144-e8c56547d53b",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-19T17:32:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "GetItem",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "176.200.70.88",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "24b69bb6-53a7-48b4-8e88-42fa81809015",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA0CE153E81DE24DF4",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "cf56740d-6f13-48e0-9024-6b0a434eb319",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-19T23:04:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "ListRoles",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "27.148.77.242",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "2a50b145-e98e-4a07-ba77-1b2e27cc99c9",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA1C6211101EF84DF0",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "9524039a-be56-4f19-a3fe-2b86329a5c34",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-19T23:13:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "Query",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "157.181.109.110",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "98454d8c-42c2-4548-a3b1-fefff77123ad",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA4CE4BF121B3D441F",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "f0c3a404-f87f-43c0-905d-8582db1c67af",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-19T23:31:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "PutObject",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "199.216.89.148",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "3d863b6d-b511-4795-9881-b8f845225e69",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA7DC47846ABEC4F77",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": null,
-        "requestID": "dc15e8bf-d4b5-40fc-943b-88ba0c6f1787",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-20T16:15:13Z",
-        "eventSource": "lambda.amazonaws.com",
-        "eventName": "InvokeFunction",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "104.136.154.1",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "cf2827c9-3dba-48e4-bf84-7d464a4671d0",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA96CFDD43E3FE4709",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "5785cc2a-6b00-47b2-859d-63c038ca8e0a",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-20T20:19:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "CreateBucket",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "120.67.150.114",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "d3291a1d-e344-400c-bd64-97235eb74066",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDADF7544C87D8947CA",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "754eaaf3-67b8-4f9d-b9fe-7af66155458e",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T03:53:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "PutObject",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "51.84.179.177",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "8cad44f5-267d-4c47-bd49-8e170932328a",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA01870E48C7E34C12",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "13d2cb15-2995-43f9-9585-5fd2c2b31265",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T04:30:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "Query",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "126.185.110.80",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "06f91ec5-dd9b-473f-8e65-8f8c8d498832",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA3C1532D58A594567",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "ab419b0d-1eab-4f51-b03b-83c2ff89e113",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T06:41:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "ListRoles",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "160.179.243.144",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "fe50417b-11da-45e5-86c7-f5cc3cd66954",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA1EB15643D2844947",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "8fd13e91-27e1-4baa-8da6-11b58adb42d9",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T10:01:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "GetRole",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "246.65.1.183",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "4449b86c-2df9-4f5b-a326-d758e3f93e16",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDAA29B8CAD2C7948DB",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "8cc9335d-1610-48b7-9bb5-7bf588fedcc1",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T11:35:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "CreateRole",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "194.138.166.99",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "e4398718-ac94-4004-b0e5-e52f087b83b8",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA579E681090C64931",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "415901a5-055f-4cb1-b46c-bdd63075209f",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T12:50:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "CreateBucket",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "67.42.27.15",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "bb4eb4dd-5040-4c2a-bef4-8b38ff492fd6",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA3AC48F95D4914032",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "aa0cbd4c-8c84-43d1-8745-7e74c2fa1724",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T14:57:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "GetItem",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "86.208.34.174",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "f99144b6-5254-46ee-975f-a1122ac68bcc",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDAC1281A56208148D4",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "da08afe9-f889-479d-ad28-f8191b8cc9ac",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T17:48:13Z",
-        "eventSource": "rds.amazonaws.com",
-        "eventName": "StartDBInstance",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "49.222.164.108",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "a2fbbfa4-421b-4e18-83cd-edf66e782a18",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA4136722206C444AA",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "61153b67-d036-47fe-bc97-23a38985773d",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T18:36:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "PutObject",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "134.94.25.90",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "6b7da356-a2d4-4d1b-b646-3e4d41269475",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA5A4AC176EBAC4352",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "5c56aa8c-3e00-47bb-ae48-6b03465a4475",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T20:31:13Z",
-        "eventSource": "lambda.amazonaws.com",
-        "eventName": "UpdateFunction",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "83.16.89.133",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "914cfb12-f481-4afa-a4b4-97e423df1497",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDAB078977FC37A4676",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "d7201c54-e1cb-4cb8-a748-68be42cfccf6",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-21T23:09:13Z",
-        "eventSource": "rds.amazonaws.com",
-        "eventName": "DescribeDBInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "166.212.176.28",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "d9c918d0-f061-48a9-8c21-0c251c8e6f97",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDAD065B469767E4160",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": null,
-        "requestID": "fdb8d710-4432-44c9-b286-8404867db889",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-22T11:24:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "GetItem",
-        "awsRegion": "us-west-2",
-        "sourceIPAddress": "102.217.207.116",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "01076ef9-162e-4d5c-838b-692733a529d8",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA9ADC156CEAB64BE5",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "f915566d-fe59-4a82-8909-05bd3c03c00c",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-22T19:34:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "GetRole",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "90.27.47.15",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "ea3df3f4-79fc-4c29-a74c-74059e66a9ff",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA261FC7E1DA5349BB",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "8850eece-03ed-4ee1-9544-b1273f8555e5",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-22T20:50:13Z",
-        "eventSource": "lambda.amazonaws.com",
-        "eventName": "InvokeFunction",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "132.21.23.96",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "a79891cd-3a0a-43f8-9beb-466a61614d64",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA5FE036B127024542",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "c3a077f5-db7f-4d5e-b30b-1bab250e58b8",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-22T21:34:13Z",
-        "eventSource": "rds.amazonaws.com",
-        "eventName": "CreateDBSnapshot",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "190.65.38.192",
-        "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
-        "eventID": "4c590781-0527-4d2e-be08-acc2240011bf",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDA5811A30F4E184B77",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "a5bd8760-1581-44df-a099-8f224443d484",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-22T23:40:13Z",
-        "eventSource": "ec2.amazonaws.com",
-        "eventName": "StopInstances",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "77.130.43.147",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "94a14a09-57e7-485d-871e-d76e6be7bef5",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA16166D17175A403F",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "d949da72-a8ff-4f6e-9627-c1d43c5e84bf",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-23T00:44:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "ListRoles",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "144.112.177.149",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "2b2f6162-65b8-4d49-b5ec-2d22f35a16c6",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA8AEE66A50EA241ED",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {},
-        "requestID": "2bc3cc3e-2813-49bd-a12d-e07cda3ea9d0",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-23T05:44:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "AssumeRole",
-        "awsRegion": "eu-west-1",
-        "sourceIPAddress": "108.233.146.166",
-        "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
-        "eventID": "f5e94296-f12b-47d0-af12-ae2578b30fe4",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA01252FC8E49B4ED3",
-          "arn": "arn:aws:iam::123456789012:user/admin-user",
-          "accountId": "123456789012",
-          "userName": "admin-user"
-        },
-        "responseElements": {
-          "credentials": {
-            "accessKeyId": "ASIAA88539FEFFEC409F",
-            "sessionToken": "FwoGZXIvYXdzEdaec088be6574fc1aaf11ac44a3ea9a0",
-            "expiration": "2024-10-23T06:44:13Z"
-          }
-        },
-        "requestID": "300b9a61-2db3-4dd8-a971-a8f419a1100a",
-        "eventCategory": "Management",
-        "requestParameters": {
-          "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
-          "roleSessionName": "Session_7a781f8b"
-        }
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-23T06:50:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "PutItem",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "121.2.189.197",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "30c4aa8b-1816-44ed-a864-07a894fbec11",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDAF4EFB42F7BB742FD",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "bb0cb637-5ab7-4e52-89f1-4ca6903b4cad",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-23T10:23:13Z",
-        "eventSource": "s3.amazonaws.com",
-        "eventName": "GetObject",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "184.56.121.132",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "d06c7d19-7f28-49f0-8666-d2e04eba5974",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "IAMUser",
-          "principalId": "AIDADD21FFD9FD2C4D47",
-          "arn": "arn:aws:iam::123456789012:user/system-user",
-          "accountId": "123456789012",
-          "userName": "system-user"
-        },
-        "responseElements": {},
-        "requestID": "b86f9351-3b28-4e78-9a96-2b70f6adf7ec",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-23T17:23:13Z",
-        "eventSource": "dynamodb.amazonaws.com",
-        "eventName": "Scan",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "179.208.39.184",
-        "userAgent": "console.amazonaws.com",
-        "eventID": "b52f0c93-d1ed-4ded-b149-7e0264351cce",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA530EE595DE3840BE",
-          "arn": "arn:aws:iam::123456789012:user/lambda-role",
-          "accountId": "123456789012",
-          "userName": "lambda-role"
-        },
-        "responseElements": {},
-        "requestID": "94accecc-a9ae-4380-83c2-c24622f992be",
-        "eventCategory": "Management"
-      },
-      {
-        "eventVersion": "1.08",
-        "eventTime": "2024-10-23T22:57:13Z",
-        "eventSource": "iam.amazonaws.com",
-        "eventName": "ListRoles",
-        "awsRegion": "us-east-1",
-        "sourceIPAddress": "20.248.59.43",
-        "userAgent": "aws-sdk-java/1.11.969",
-        "eventID": "634d8670-7015-4631-9f1f-0134e8171547",
-        "eventType": "AwsApiCall",
-        "userIdentity": {
-          "type": "AssumedRole",
-          "principalId": "AIDA4E8DA6B4B2A6471D",
-          "arn": "arn:aws:iam::123456789012:user/developer1",
-          "accountId": "123456789012",
-          "userName": "developer1"
-        },
-        "responseElements": {},
-        "requestID": "ad1a0355-8f02-4f6b-85c1-06b7602b6556",
-        "eventCategory": "Management"
+      "requestID": "17bff3a2-cfde-4296-8315-9aa8b40e3218",
+      "eventCategory": "Management",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
+        "roleSessionName": "Session_7519d349"
       }
-    ]
-  }
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T22:12:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "5.88.146.50",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "3c7d99b4-11bb-4b14-bb1a-01f5a8f1629a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAAAF443CDCF7D43FD",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b4f95b5a-6da8-4f68-8447-cbfbde797d02",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T00:42:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "48.18.126.140",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "a586b635-a265-410d-9020-dc4435d2f6b8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA668D0241A3DD4434",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "8c42d23f-84e0-4d67-9bc9-d8a2ff12957e",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T03:47:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "171.185.17.146",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "58d8c91c-76f5-41b6-9e01-ea10cecfcc0e",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAC192D54A2175478D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "d960e27a-c868-413d-bd3e-4143c8d950e2",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T10:44:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "84.44.176.71",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "831925c0-cdc0-40e6-bf5e-b3e3171dfab5",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAD17C7D32A7DC499D",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "c7c6a99a-9f64-435b-bd7e-bc50b0ed35bc",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T19:57:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "108.84.148.88",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "3cb07949-1a79-4570-b702-2aa7196e09d4",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDABED7BCBBCB9840FB",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "2e8800da-214e-40df-89f4-7f14c640bb3e",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T11:36:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "247.51.190.232",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "cf355466-3512-40cb-875f-9d7d2df26d8c",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA86B8BA53854D49FA",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "c6a2d628-49a0-4ec7-b53d-1fca19229dec",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T12:44:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "152.158.87.56",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "ba7da03e-c134-4e15-9385-e301308617db",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA0BB0704DABA64530",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "4f3ab13e-38de-440c-b02c-388ddf5982de",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T13:52:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "146.190.81.100",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "0e3b4b54-05db-4651-a898-9bcae37fc79f",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA011F1B95E9D74FD5",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b14af858-c16b-442d-89b3-0f566dcd2081",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T14:54:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "214.69.214.90",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "4f7f0ed3-5a59-493b-85c3-0d80bf0a25b1",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA0D13379835B948F0",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "3473a028-e170-4bb6-b3e7-2b7a83decae7",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T19:31:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "InvokeFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "175.254.86.26",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "bca38f9f-38ba-437d-bff4-9d03569cb531",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA87C0186744004BDC",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "e5f668f5-523d-4646-8466-b8bbe77a4f49",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T00:06:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreateRole",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "218.201.203.69",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "c2d25b8e-df7f-40c6-9a14-7fb51eee77bc",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA53DDDB36D109467B",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "49d11244-9d55-4c47-b563-6c7e84a7b8ba",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T05:12:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "236.75.7.127",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "8e515753-8d30-42c2-9552-97fa76cfe094",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAB2563A6CAD8D43E5",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "4cd63a2c-2158-4cce-af19-fbf90938378f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T06:49:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "253.124.228.249",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "156f7cb3-d266-4ab1-a349-856b5b2de329",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA0924E4CEB189443B",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "1557cb8a-abd6-4d6f-8d06-d2c9df03f970",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T16:34:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "246.241.91.223",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "771805e0-5380-4448-9227-87fda2ada394",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA35AA39DF8917476E",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "c7851a6f-f2a5-4845-ba4d-036ba962f74a",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T01:18:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "Query",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "207.169.86.75",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "7013b4ff-e294-4dc4-9d16-05a241a8a369",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA60D56466E4D146D4",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "f5afb8e0-7893-40df-a86a-fa963612c41d",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T04:16:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "GetRole",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "156.184.199.34",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "aa7ae161-9b96-4b1c-9644-3ca0d561fca3",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA53296E547402409D",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "4553eae9-d393-46df-a95c-0e777029d573",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T10:36:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "38.32.190.185",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "1ee41679-38c2-4811-b541-2946aacd00af",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAA23FB09F127C459B",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "2a7a4253-e2b0-4e7f-b624-879714e4f9b1",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T11:37:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "DescribeDBInstances",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "220.252.39.248",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "fbd81368-a5b9-428c-bc15-107325499f4a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDADE17F488822D489A",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "8df5b368-9dc3-4379-8e5a-e8f297328d9f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T12:25:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "176.32.23.168",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "deb55d77-53e1-4900-8618-71f966eabf5d",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA03A376F1665B4295",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "4fc59020-d4af-4a57-bf79-07113c07d264",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T13:54:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "111.244.213.157",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "6f17f58d-39fe-4cf5-89f2-b135114b63e3",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA74F8D3C69D964228",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "1f064b42-d029-43ed-8c06-a1d4a7a835ef",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T03:42:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "GetRole",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "43.179.206.31",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "a71744eb-196a-4cc0-b486-1c5b6333d4b4",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACAC24E375BD14C7E",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "075b3cb2-c725-47d3-8f03-1c283268eaf7",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T06:05:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "105.82.137.142",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "715f8487-225a-4e45-b738-751574c78a1d",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAC9C2455A43374B45",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "ASIAB486770C884945E2",
+          "sessionToken": "FwoGZXIvYXdzE407fed6c88d5456bb4ab436aeb226ec6",
+          "expiration": "2024-10-22T07:05:00Z"
+        }
+      },
+      "requestID": "207c1e80-0440-439c-a17f-07a909dbd03c",
+      "eventCategory": "Management",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
+        "roleSessionName": "Session_61321302"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T07:14:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "54.254.224.238",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "db43f949-b6e6-470c-b6f3-429d0737e15a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA40B6769E5B26473D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "ASIAC57B8164DDF34E0C",
+          "sessionToken": "FwoGZXIvYXdzE14a66657e45641c5a261956a06a3c049",
+          "expiration": "2024-10-22T08:14:00Z"
+        }
+      },
+      "requestID": "f551216c-8ff9-4730-b4e2-798b6df9d502",
+      "eventCategory": "Management",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
+        "roleSessionName": "Session_cc33bbe4"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T13:21:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "GetItem",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "169.232.93.182",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "609340df-0833-4456-968c-958bad0b17d7",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA2F1D59790B444635",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "54305d54-27bc-4085-8e1a-3f42f731e7d9",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T14:02:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.66.200.114",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "b864de44-8a93-41dc-b9ed-121622a06554",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA8B1D45F1D99F4195",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "41350c7a-462f-4c34-8591-53cf560076ae",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T16:50:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "127.68.89.101",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "b74574b9-a540-435d-a98b-67885df6e6e4",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDABC74F9BDBFEE49A0",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "552168bf-7567-40a3-9500-45aeac65d9a2",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T05:18:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "Scan",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "62.21.49.147",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "9bd59a59-edac-4da6-b82e-b340643820a8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAB26734C7B2764852",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b3921603-a580-45eb-916a-8e402c0adc2f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T05:25:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "PutItem",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "20.233.10.33",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "47124093-c125-46ab-be63-91ccdc7b12aa",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA1F9A71E25CF047ED",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "e2c26101-6d8c-43eb-a90d-e4311546fdb2",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T08:26:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "Query",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "17.57.185.172",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "32921f1a-86d4-4513-8135-e0ef74dbc0b2",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA3B3CE0CB4A6F45BD",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "cb83f2a6-6894-48cf-ac4c-802b7723e056",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T14:23:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "8.12.161.96",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "c041fe74-29a5-4721-ab7c-b0185a82572a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA8AE2D85CEC1C4844",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "7308cf60-a5c2-402d-8a93-e910cfadb8dc",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T15:55:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "180.117.0.41",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "bbfe74bf-e37c-4d24-ba54-99c809f0073f",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAF3875AD26CC84C6D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "1aab356f-891d-4eac-8f54-c3e7415338bd",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T16:59:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "240.35.9.33",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "da8e0d02-0cfa-4f2b-817a-4127fc0cb385",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA8527226E570740CF",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b3b0e325-aa39-44fe-8053-1be6e9882ee4",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T18:00:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "140.154.66.34",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "eb15ef98-c9fa-4ef6-ab43-29d0feb8d66c",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAB3FE977212014570",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "25d2b72a-0735-42ca-98de-6e30ac121239",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T00:25:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "17.28.158.15",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "afb88a20-5488-47a4-82f8-fee90720d592",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA3F6CCDE8FA794D7A",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "0c45ad0a-e07f-47a1-8ee9-32307cd58803",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:06:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "4.223.73.111",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "4ee0e8e9-75f3-45fa-aaef-79a48b3ad912",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA77A5474BCC114DEB",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "6c3962c1-0161-41f1-acf0-8cec89929c6f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T03:54:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "32.118.234.47",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "154c6323-b724-4364-939e-75dba6a91a28",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAE476825B797848E3",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "7e033418-851f-46f4-8b66-b5ae48a9a4a1",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T04:20:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "142.130.179.217",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "aeeaa328-3c3e-4ca8-9461-c93ca647784a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA069A7C895B364F6B",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "d436f3c7-9fc1-4178-8ed0-4508b34ea30f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T07:31:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "178.252.78.134",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "ef6033b1-ce8c-494c-80ce-54532cebdc02",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA345261320F2F4B33",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "55e610de-1e0d-4cee-a4e9-d15c1218108b",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T12:05:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "CreateDBSnapshot",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "91.133.217.60",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "595d14b2-9f9b-41e6-b0fd-360a16891e39",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA4EB8B5CB2D2F4942",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "da93acef-13c3-4f1e-b61d-6af94e0bd113",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T13:34:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "GetItem",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "197.76.188.16",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "30914330-d39d-45e6-9790-0375d2a90f5b",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA37F1B65C68B7474E",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "c07631eb-23f1-4eb4-835f-788d6d198659",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T16:23:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "117.31.171.60",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "e38218e3-fea7-4460-be11-2a96e26baf73",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA12C5FB52E5964EE0",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "473a2fb7-41f6-423a-a0a0-cab2aa7ecbf8",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T17:52:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "GetItem",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "157.63.41.102",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "b7f5cbb3-768a-46e4-b70b-d7c2986b89e2",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAC4EB1E268A124DDB",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "79d6cb1d-9efb-4227-a5ba-63690fdfbe5a",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T19:35:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "234.200.118.82",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "da5f4360-f851-4f77-b83c-8a4a1de5d789",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA02FFDBFB1E154D22",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "26271773-b1fd-4e5e-b8cb-d61a22269509",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T19:35:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "150.124.242.160",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "a38c786d-48cd-41a9-924c-100ebaad027a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA15EE8B3A30CD497A",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "5249ac35-f1b1-43be-9c31-adbebe43eb28",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-16T21:30:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "131.16.213.28",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "5951921b-179f-47f3-b965-40a5e2df1024",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA93FD7E4B947E42E8",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": null,
+      "requestID": "c877cc5f-ba11-46e6-a3ea-093f18c00f55",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T02:32:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "238.42.195.230",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "c9e6267e-b3fa-4ef5-9f7e-8992af635bb2",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAAD5EB45DE17C40BE",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "3e03db60-b10e-46eb-b21e-0867d0a62daf",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T08:06:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "CreateDBSnapshot",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "91.199.5.110",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "08461382-8c00-452f-a537-0b547ed7c553",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA27F3CC184B06444C",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "a09b0186-4b70-4707-9803-3d49b85a23af",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T12:07:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "187.33.164.98",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "8b7f6586-8554-43f5-b7fc-4d28807f19b8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA37990DF60C104D8D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "bc8b33f4-0e04-4ae5-b460-9e10f1453f21",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T17:20:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "222.40.28.53",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "012c48d2-3ad8-4f4a-80eb-570d2071ecaa",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA2908B7D0C09E466E",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "70df381b-b2b4-4954-b091-5b462fa3e471",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T17:58:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "151.57.193.83",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "8912d281-65a8-491c-9884-451fe08f8737",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA99DF33CC31C94A0B",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "ASIAE7564011575B4844",
+          "sessionToken": "FwoGZXIvYXdzEef045c2b00a54078a31ea3204ae102bf",
+          "expiration": "2024-10-17T18:58:00Z"
+        }
+      },
+      "requestID": "17bff3a2-cfde-4296-8315-9aa8b40e3218",
+      "eventCategory": "Management",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
+        "roleSessionName": "Session_7519d349"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-17T22:12:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "5.88.146.50",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "3c7d99b4-11bb-4b14-bb1a-01f5a8f1629a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAAAF443CDCF7D43FD",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b4f95b5a-6da8-4f68-8447-cbfbde797d02",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T00:42:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "48.18.126.140",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "a586b635-a265-410d-9020-dc4435d2f6b8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA668D0241A3DD4434",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "8c42d23f-84e0-4d67-9bc9-d8a2ff12957e",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T03:47:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "171.185.17.146",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "58d8c91c-76f5-41b6-9e01-ea10cecfcc0e",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAC192D54A2175478D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "d960e27a-c868-413d-bd3e-4143c8d950e2",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T10:44:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "84.44.176.71",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "831925c0-cdc0-40e6-bf5e-b3e3171dfab5",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAD17C7D32A7DC499D",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "c7c6a99a-9f64-435b-bd7e-bc50b0ed35bc",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-18T19:57:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "108.84.148.88",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "3cb07949-1a79-4570-b702-2aa7196e09d4",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDABED7BCBBCB9840FB",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "2e8800da-214e-40df-89f4-7f14c640bb3e",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T11:36:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "247.51.190.232",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "cf355466-3512-40cb-875f-9d7d2df26d8c",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA86B8BA53854D49FA",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "c6a2d628-49a0-4ec7-b53d-1fca19229dec",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T12:44:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "152.158.87.56",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "ba7da03e-c134-4e15-9385-e301308617db",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA0BB0704DABA64530",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "4f3ab13e-38de-440c-b02c-388ddf5982de",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T13:52:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "146.190.81.100",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "0e3b4b54-05db-4651-a898-9bcae37fc79f",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA011F1B95E9D74FD5",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b14af858-c16b-442d-89b3-0f566dcd2081",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T14:54:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "214.69.214.90",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "4f7f0ed3-5a59-493b-85c3-0d80bf0a25b1",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA0D13379835B948F0",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "3473a028-e170-4bb6-b3e7-2b7a83decae7",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-19T19:31:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "InvokeFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "175.254.86.26",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "bca38f9f-38ba-437d-bff4-9d03569cb531",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA87C0186744004BDC",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "e5f668f5-523d-4646-8466-b8bbe77a4f49",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T00:06:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreateRole",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "218.201.203.69",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "c2d25b8e-df7f-40c6-9a14-7fb51eee77bc",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA53DDDB36D109467B",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "49d11244-9d55-4c47-b563-6c7e84a7b8ba",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T05:12:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "236.75.7.127",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "8e515753-8d30-42c2-9552-97fa76cfe094",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAB2563A6CAD8D43E5",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "4cd63a2c-2158-4cce-af19-fbf90938378f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T06:49:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "253.124.228.249",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "156f7cb3-d266-4ab1-a349-856b5b2de329",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA0924E4CEB189443B",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "1557cb8a-abd6-4d6f-8d06-d2c9df03f970",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-20T16:34:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "246.241.91.223",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "771805e0-5380-4448-9227-87fda2ada394",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA35AA39DF8917476E",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "c7851a6f-f2a5-4845-ba4d-036ba962f74a",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T01:18:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "Query",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "207.169.86.75",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "7013b4ff-e294-4dc4-9d16-05a241a8a369",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA60D56466E4D146D4",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "f5afb8e0-7893-40df-a86a-fa963612c41d",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T04:16:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "GetRole",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "156.184.199.34",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "aa7ae161-9b96-4b1c-9644-3ca0d561fca3",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA53296E547402409D",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "4553eae9-d393-46df-a95c-0e777029d573",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T10:36:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "38.32.190.185",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "1ee41679-38c2-4811-b541-2946aacd00af",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAA23FB09F127C459B",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "2a7a4253-e2b0-4e7f-b624-879714e4f9b1",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T11:37:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "DescribeDBInstances",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "220.252.39.248",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "fbd81368-a5b9-428c-bc15-107325499f4a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDADE17F488822D489A",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "8df5b368-9dc3-4379-8e5a-e8f297328d9f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T12:25:00Z",
+      "eventSource": "rds.amazonaws.com",
+      "eventName": "StartDBInstance",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "176.32.23.168",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "deb55d77-53e1-4900-8618-71f966eabf5d",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA03A376F1665B4295",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "4fc59020-d4af-4a57-bf79-07113c07d264",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-21T13:54:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "111.244.213.157",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "6f17f58d-39fe-4cf5-89f2-b135114b63e3",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA74F8D3C69D964228",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "1f064b42-d029-43ed-8c06-a1d4a7a835ef",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T03:42:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "GetRole",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "43.179.206.31",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "a71744eb-196a-4cc0-b486-1c5b6333d4b4",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACAC24E375BD14C7E",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "075b3cb2-c725-47d3-8f03-1c283268eaf7",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T06:05:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "105.82.137.142",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "715f8487-225a-4e45-b738-751574c78a1d",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAC9C2455A43374B45",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "ASIAB486770C884945E2",
+          "sessionToken": "FwoGZXIvYXdzE407fed6c88d5456bb4ab436aeb226ec6",
+          "expiration": "2024-10-22T07:05:00Z"
+        }
+      },
+      "requestID": "207c1e80-0440-439c-a17f-07a909dbd03c",
+      "eventCategory": "Management",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
+        "roleSessionName": "Session_61321302"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T07:14:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "54.254.224.238",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "db43f949-b6e6-470c-b6f3-429d0737e15a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA40B6769E5B26473D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "ASIAC57B8164DDF34E0C",
+          "sessionToken": "FwoGZXIvYXdzE14a66657e45641c5a261956a06a3c049",
+          "expiration": "2024-10-22T08:14:00Z"
+        }
+      },
+      "requestID": "f551216c-8ff9-4730-b4e2-798b6df9d502",
+      "eventCategory": "Management",
+      "requestParameters": {
+        "roleArn": "arn:aws:iam::123456789012:role/AdminRole",
+        "roleSessionName": "Session_cc33bbe4"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T13:21:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "GetItem",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "169.232.93.182",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "609340df-0833-4456-968c-958bad0b17d7",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA2F1D59790B444635",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "54305d54-27bc-4085-8e1a-3f42f731e7d9",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T14:02:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.66.200.114",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "b864de44-8a93-41dc-b9ed-121622a06554",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA8B1D45F1D99F4195",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "41350c7a-462f-4c34-8591-53cf560076ae",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-22T16:50:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "127.68.89.101",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "b74574b9-a540-435d-a98b-67885df6e6e4",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDABC74F9BDBFEE49A0",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "552168bf-7567-40a3-9500-45aeac65d9a2",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T05:18:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "Scan",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "62.21.49.147",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "9bd59a59-edac-4da6-b82e-b340643820a8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAB26734C7B2764852",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b3921603-a580-45eb-916a-8e402c0adc2f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T05:25:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "PutItem",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "20.233.10.33",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "47124093-c125-46ab-be63-91ccdc7b12aa",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA1F9A71E25CF047ED",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "e2c26101-6d8c-43eb-a90d-e4311546fdb2",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T08:26:00Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "Query",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "17.57.185.172",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "32921f1a-86d4-4513-8135-e0ef74dbc0b2",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA3B3CE0CB4A6F45BD",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": null,
+      "requestID": "cb83f2a6-6894-48cf-ac4c-802b7723e056",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T14:23:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "8.12.161.96",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "c041fe74-29a5-4721-ab7c-b0185a82572a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA8AE2D85CEC1C4844",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "7308cf60-a5c2-402d-8a93-e910cfadb8dc",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T15:55:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "180.117.0.41",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "bbfe74bf-e37c-4d24-ba54-99c809f0073f",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAF3875AD26CC84C6D",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "1aab356f-891d-4eac-8f54-c3e7415338bd",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T16:59:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "240.35.9.33",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "da8e0d02-0cfa-4f2b-817a-4127fc0cb385",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA8527226E570740CF",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "b3b0e325-aa39-44fe-8053-1be6e9882ee4",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-23T18:00:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "140.154.66.34",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "eb15ef98-c9fa-4ef6-ab43-29d0feb8d66c",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAB3FE977212014570",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "25d2b72a-0735-42ca-98de-6e30ac121239",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T00:25:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "17.28.158.15",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "afb88a20-5488-47a4-82f8-fee90720d592",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA3F6CCDE8FA794D7A",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "0c45ad0a-e07f-47a1-8ee9-32307cd58803",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:06:00Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "UpdateFunction",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "4.223.73.111",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "4ee0e8e9-75f3-45fa-aaef-79a48b3ad912",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA77A5474BCC114DEB",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "6c3962c1-0161-41f1-acf0-8cec89929c6f",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:18:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "241.87.138.237",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "13601b3c-93db-4792-bc06-1d8e325aa51a",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDACC2531B73A544557",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "db1f455c-2e80-4090-a9f0-b45666010c93",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:18:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "3.241.211.163",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "be47c5db-257c-4690-ba6c-d3247523762c",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA3D2933C8FA5543E6",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "a4b47f3e-6eaf-4f36-a40c-01f139443f79",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:18:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListRoles",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "223.153.55.116",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "3df02496-9880-43b9-b74f-b425337b0eb5",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAB051D496B3AD4052",
+        "arn": "arn:aws:iam::123456789012:user/system-user",
+        "accountId": "123456789012",
+        "userName": "system-user"
+      },
+      "responseElements": {},
+      "requestID": "2e91da28-866c-4703-a93e-bfbe43b2b67c",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:23:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AssumeRole",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "79.74.245.41",
+      "userAgent": "aws-sdk-java/1.11.969",
+      "eventID": "feb9ae9a-ab43-46db-b1b9-db265c4a7328",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDA2E1D20745B2544AD",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": {},
+      "requestID": "7cb47637-1a44-4a7a-81d7-e3b827c672fc",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:28:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "RunInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "95.65.144.173",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "1fafc918-61ce-4fdc-85e4-d7b2877eb6e4",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA109110D7BE464E8D",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "d0d2d91b-07bc-4c14-87ba-c42567a2ea2c",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:28:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "RunInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "206.35.28.73",
+      "userAgent": "console.amazonaws.com",
+      "eventID": "918c8779-b978-47d9-b906-dbbeaa019ec8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAB1139D4CCE954AC3",
+        "arn": "arn:aws:iam::123456789012:user/lambda-role",
+        "accountId": "123456789012",
+        "userName": "lambda-role"
+      },
+      "responseElements": null,
+      "requestID": "d9d939c8-c8bf-4a9d-add7-c86f651655b4",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:33:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "113.171.129.220",
+      "userAgent": "boto3/1.17.78 Python/3.8.5 Linux/5.4.0-42-generic",
+      "eventID": "05604bf8-0dc2-4556-83c9-f4c536434ef8",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AIDAD69C24FBFEC54D6F",
+        "arn": "arn:aws:iam::123456789012:user/developer1",
+        "accountId": "123456789012",
+        "userName": "developer1"
+      },
+      "responseElements": {},
+      "requestID": "2f0e5b71-ad7c-4c7f-b682-35ee9fabdd3b",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2024-10-24T02:33:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "eu-west-1",
+      "sourceIPAddress": "170.168.128.203",
+      "userAgent": "aws-cli/2.0.0 Python/3.8.5 Darwin/18.7.0 botocore/2.0.0",
+      "eventID": "1cd0b05f-002b-4c55-b589-b2b93d193320",
+      "eventType": "AwsApiCall",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA61F7E3D8776B4D57",
+        "arn": "arn:aws:iam::123456789012:user/admin-user",
+        "accountId": "123456789012",
+        "userName": "admin-user"
+      },
+      "responseElements": {},
+      "requestID": "28c3b1bf-e047-4aab-8792-7c8c9cd919c0",
+      "eventCategory": "Management"
+    }
+  ]
+}
