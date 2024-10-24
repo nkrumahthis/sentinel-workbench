@@ -14,13 +14,13 @@ type AlertData = {
 }
 
 type Enrichments = {
-  assumedRoleDetails?: {
+  assumedRoleDetails: {
     assumedBy: string,
     assumedAt: string,
     sourceIP: string,
     roleArn: string,
   },
-  recentRoleAssumptions?: [
+  recentRoleAssumptions: [
     {
       roleArn: string,
       eventTime: string,
@@ -28,14 +28,17 @@ type Enrichments = {
       successful: string,
     }
   ],
-  interestingApiCalls?: [
+  interestingApiCalls: [
     {
       eventName: string,
       eventSource: string,
       eventTime: string,
       sourceIP: string,
     }
-  ]
+  ],
+  serviceInteractions: {
+    [key: string]: number
+  }
 }
 
 const AlertEnrichmentDashboard = () => {
@@ -101,7 +104,7 @@ const AlertEnrichmentDashboard = () => {
     fetchEnrichments();
   }, [alertData]);
 
-  const transformServiceData = (services) => {
+  const transformServiceData = (services: {[key: string]: number} | undefined) => {
     return Object.entries(services || {}).map(([name, count]) => ({
       name,
       count
@@ -185,8 +188,8 @@ const AlertEnrichmentDashboard = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              {enrichments?.recentRoleAssumptions?.length > 0 ? (
-                enrichments.recentRoleAssumptions.map((assumption, index) => (
+              {(enrichments?.recentRoleAssumptions?.length ?? 0) > 0 ? (
+                enrichments?.recentRoleAssumptions.map((assumption, index) => (
                   <div key={index} className="p-2 bg-gray-50 rounded">
                     <p><strong>Role:</strong> {assumption.roleArn}</p>
                     <p><strong>Time:</strong> {assumption.eventTime}</p>
@@ -215,8 +218,8 @@ const AlertEnrichmentDashboard = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              {enrichments?.interestingApiCalls?.length > 0 ? (
-                enrichments.interestingApiCalls.map((call, index) => (
+              {(enrichments?.interestingApiCalls.length ?? 0) > 0 ? (
+                enrichments?.interestingApiCalls.map((call, index) => (
                   <div key={index} className="p-2 bg-gray-50 rounded flex justify-between items-center">
                     <div>
                       <p className="font-medium">{call.eventName}</p>
@@ -243,12 +246,15 @@ const AlertEnrichmentDashboard = () => {
           <CardContent>
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={transformServiceData(enrichments?.serviceInteractions)}>
-                  <XAxis dataKey="name" />
-                  <YAxis />
-                  <Tooltip />
-                  <Bar dataKey="count" fill="#4f46e5" />
-                </BarChart>
+                <>
+                  <p>{JSON.stringify(enrichments?.serviceInteractions)}</p>
+                  <BarChart data={transformServiceData(enrichments?.serviceInteractions)}>
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Bar dataKey="count" fill="#4f46e5" />
+                  </BarChart>
+                </>
               </ResponsiveContainer>
             </div>
           </CardContent>
