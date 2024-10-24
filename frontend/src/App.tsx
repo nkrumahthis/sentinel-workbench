@@ -188,7 +188,7 @@ const AlertEnrichmentDashboard = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              {(enrichments?.recentRoleAssumptions?.length ?? 0) > 0 ? (
+              {(enrichments?.recentRoleAssumptions.length ?? 0) > 0 ? (
                 enrichments?.recentRoleAssumptions.map((assumption, index) => (
                   <div key={index} className="p-2 bg-gray-50 rounded">
                     <p><strong>Role:</strong> {assumption.roleArn}</p>
@@ -246,14 +246,12 @@ const AlertEnrichmentDashboard = () => {
           <CardContent>
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
-                <>
-                  <BarChart data={transformServiceData(enrichments?.serviceInteractions)}>
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Bar dataKey="count" fill="#4f46e5" />
-                  </BarChart>
-                </>
+                <BarChart data={transformServiceData(enrichments?.serviceInteractions)}>
+                  <XAxis dataKey="name" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar dataKey="count" fill="#4f46e5" />
+                </BarChart>
               </ResponsiveContainer>
             </div>
           </CardContent>
