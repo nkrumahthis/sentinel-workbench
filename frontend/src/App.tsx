@@ -247,7 +247,6 @@ const AlertEnrichmentDashboard = () => {
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
                 <>
-                  <p>{JSON.stringify(enrichments?.serviceInteractions)}</p>
                   <BarChart data={transformServiceData(enrichments?.serviceInteractions)}>
                     <XAxis dataKey="name" />
                     <YAxis />
