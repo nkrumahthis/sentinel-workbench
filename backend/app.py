@@ -11,6 +11,11 @@ CORS(app)
 enrichment_service = MockAWSEnrichmentService()
 alert_store = AlertStore()
 
+@app.route("/", methods=["GET"])
+def index():
+    """Welcome message."""
+    return jsonify({"message": "Welcome to the Sentinel Workbench API"})
+
 
 @app.route("/api/enrich", methods=["POST"])
 def enrich_alert():

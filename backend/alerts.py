@@ -4,7 +4,7 @@ from typing import Dict
 
 
 class AlertStore:
-    def __init__(self, mock_file="./backend/test_cloudtrail.json"):
+    def __init__(self, mock_file="./tmp/mock_cloudtrail.json"):
         self.mock_file = mock_file
         self.alerts = self._generate_sample_alerts()
 

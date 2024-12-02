@@ -66,16 +66,25 @@ This tool automates that process by:
 
 ## Quick Start
 
+0. Setup the python virtual environment
+
+```bash
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 1. Generate test data:
 
 ```bash
-python mock_cloudtrail.py
+python cloudtrail_data_generator.py
 ```
 
 2. Start the backend:
 
 ```bash
-pip install flask flask-cors
+pip install -r requirements
 python enrichment_backend.py
 ```
 

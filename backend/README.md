@@ -17,7 +17,7 @@ flask --app backend/app run -p 5001
 python cloudtrail_data_generator.py
 ```
 
-Then manually merge the new data from `mock_cloudtrail.json` into `test_cloudtrail.json`.
+Then manually merge the new data from `tmp/mock_cloudtrail.json` into `tmp/test_cloudtrail.json`.
 
 ## Test
 

@@ -4,7 +4,7 @@ import random
 from datetime import datetime, timedelta
 import ipaddress
 import uuid
-
+import os
 
 class CloudTrailMockGenerator:
     def __init__(self):
@@ -88,7 +88,7 @@ class CloudTrailMockGenerator:
 
         return event
 
-    def generate_logs(self, num_events=100, output_file="test_cloudtrail.json"):
+    def generate_logs(self, num_events=100, output_file="tmp/test_cloudtrail.json"):
         events = []
         for _ in range(num_events):
             events.append(self.generate_event())
@@ -153,8 +153,10 @@ if __name__ == "__main__":
     # Combine and save all events
     all_events = regular_events + suspicious_events
     all_events.sort(key=lambda x: x["eventTime"])
+    
+    os.mkdir("tmp")
 
-    with open("mock_cloudtrail.json", "w") as f:
+    with open("tmp/mock_cloudtrail.json", "w") as f:
         json.dump({"Records": all_events}, f, indent=2)
 
     print(f"Generated {len(all_events)} events, including a suspicious pattern.")

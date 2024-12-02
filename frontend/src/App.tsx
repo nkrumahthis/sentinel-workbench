@@ -6,8 +6,7 @@ import { Clock, Shield, Cloud, Activity } from 'lucide-react';
 import AlertList from './components/AlertList';
 import { Alert as AlertType, Enrichments } from './lib/types';
 
-const API_BASE_URL = "http://localhost:5001"
-
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
 const App = () => {
 
   const [enrichments, setEnrichments] = useState<Enrichments | null>(null);
@@ -22,8 +21,11 @@ const App = () => {
   useEffect(() => {
     const fetchAlerts = async () => {
       try {
+        console.log(`${API_BASE_URL}/api/alerts`)
         const response = await fetch(`${API_BASE_URL}/api/alerts`);
         const data = await response.json();
+        
+        console.log("ok")
         setAlerts(data);
         if (data.length > 0 && !selectedAlertId) {
           setSelectedAlertId(data[0].id);
@@ -35,12 +37,15 @@ const App = () => {
     };
 
     fetchAlerts();
-  });
+  }, []);
 
   // Fetch selected alert details and enrichments
   useEffect(() => {
     const fetchAlertDetails = async () => {
-      if (!selectedAlertId) return;
+      if (!selectedAlertId) {
+        setLoading(false)
+        return
+      };
 
       setLoading(true);
       try {
